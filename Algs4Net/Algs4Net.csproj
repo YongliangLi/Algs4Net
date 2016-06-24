@@ -46,7 +46,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Accumulator.cs" />
+    <Compile Include="Section1.2\Accumulator.cs" />
     <Compile Include="AcyclicLP.cs" />
     <Compile Include="AcyclicSP.cs" />
     <Compile Include="AdjMatrixEdgeWeightedDigraph.cs" />
@@ -185,6 +185,10 @@
     <Compile Include="ResizingArrayQueue.cs" />
     <Compile Include="ResizingArrayStack.cs" />
     <Compile Include="RunLength.cs" />
+    <Compile Include="Section1.2\ContravariantActionExample.cs" />
+    <Compile Include="Section1.2\ContravariantInterfaceExample.cs" />
+    <Compile Include="Section1.2\CovariantContravariantFunc.cs" />
+    <Compile Include="Section1.2\CovariantInterfaceExample.cs" />
     <Compile Include="Selection.cs" />
     <Compile Include="SeparateChainingHashST.cs" />
     <Compile Include="SequentialSearchST.cs" />
@@ -207,7 +211,7 @@
     <Compile Include="TopM.cs" />
     <Compile Include="Topological.cs" />
     <Compile Include="TopologicalX.cs" />
-    <Compile Include="Transaction.cs" />
+    <Compile Include="Section1.2\Transaction.cs" />
     <Compile Include="TransitiveClosure.cs" />
     <Compile Include="TrieSET.cs" />
     <Compile Include="TrieST.cs" />
@@ -218,6 +222,9 @@
     <Compile Include="WeightedQuickUnionUF.cs" />
     <Compile Include="WhiteFilter.cs" />
     <Compile Include="Whitelist.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Section1.3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
